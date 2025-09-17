@@ -26,4 +26,14 @@
             android:paddingHorizontal="32dp"
             android:paddingVertical="12dp" />
 
+    <Button
+            android:id="@+id/btnFace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Autenticar con Rostro"
+            android:textSize="16sp"
+            android:paddingHorizontal="32dp"
+            android:paddingVertical="12dp"
+            android:backgroundTint="#4CAF50" />
+
 </LinearLayout>

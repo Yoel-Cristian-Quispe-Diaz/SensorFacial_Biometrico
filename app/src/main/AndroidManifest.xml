@@ -4,6 +4,10 @@
     <!-- Permisos para autenticación biométrica -->
     <uses-permission android:name="android.permission.USE_BIOMETRIC" />
     <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+
+
+    <!-- Permisos para cámara -->
+    <uses-permission android:name="android.permission.CAMERA" />
     <application
             android:allowBackup="true"
             android:dataExtractionRules="@xml/data_extraction_rules"
@@ -22,6 +26,21 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity
+                android:name=".WelcomeActivity"
+                android:exported="false"
+                android:parentActivityName=".MainActivity">
+            <meta-data
+                    android:name="android.support.PARENT_ACTIVITY"
+                    android:value=".MainActivity" />
+        </activity>
+
+        <activity
+                android:name=".FaceAuthActivity"
+                android:exported="false"
+                android:screenOrientation="portrait"
+                android:theme="@style/Theme.AppCompat.NoActionBar" />
+
     </application>
 
 </manifest>
