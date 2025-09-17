@@ -12,7 +12,7 @@
 
 ---
 
-## 📱 Descripción General
+## Descripción General
 
 Esta aplicación Android nativa implementa **autenticación biométrica dual** utilizando:
 - **Huella dactilar** (sensor biométrico nativo)
