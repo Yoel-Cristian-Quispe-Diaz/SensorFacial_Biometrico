@@ -27,7 +27,7 @@ Esta aplicación Android nativa implementa **autenticación biométrica dual** u
 
 ---
 
-## 🏗️ Arquitectura del Proyecto
+## Arquitectura del Proyecto
 
 ```
 src/main/
@@ -47,7 +47,7 @@ src/main/
 
 ---
 
-## 🔒 Sensores Biométricos en Android
+## Sensores Biométricos en Android
 
 ### 1. **BiometricPrompt** - Huella Dactilar
 Android proporciona la clase `BiometricPrompt` que interactúa directamente con los **sensores biométricos del hardware**:
@@ -86,7 +86,7 @@ Como muchos dispositivos no tienen **Face ID nativo**, implementamos una soluci�
 
 ---
 
-## 🧩 Componentes del Proyecto
+## Componentes del Proyecto
 
 ### 1. **MainActivity.kt** - Pantalla Principal
 
@@ -177,7 +177,7 @@ val cameraSelector = CameraSelector.DEFAULT_FRONT_CAMERA
 
 ---
 
-## 🔧 Implementación Detallada
+## Implementación Detallada
 
 ### 1. **Verificación de Disponibilidad Biométrica**
 
@@ -269,7 +269,7 @@ try {
 
 ---
 
-## 📦 Dependencias y Configuración
+## Dependencias y Configuración
 
 ### 1. **build.gradle (Module: app)**
 
@@ -312,7 +312,7 @@ dependencies {
 
 ---
 
-## 🎯 Flujo de Usuario
+## Flujo de Usuario
 
 ### 1. **Pantalla Principal (MainActivity)**
 ```
@@ -368,7 +368,7 @@ Botón "Cerrar Sesión" → Regresar al inicio
 
 ---
 
-## 🔐 Gestión de Permisos
+## Gestión de Permisos
 
 ### 1. **Permisos de Biometría**
 ```kotlin
@@ -413,7 +413,7 @@ override fun onRequestPermissionsResult(
 
 ---
 
-## 🎨 Componentes de Interfaz
+## Componentes de Interfaz
 
 ### 1. **Layouts XML**
 
@@ -449,7 +449,7 @@ override fun onRequestPermissionsResult(
 
 ---
 
-## 📱 Consideraciones de Dispositivos
+## Consideraciones de Dispositivos
 
 ### 1. **Compatibilidad de Sensores**
 - **Huella dactilar**: Dispositivos con sensor físico o en pantalla
@@ -466,7 +466,7 @@ override fun onRequestPermissionsResult(
 
 ---
 
-## 🚀 Posibles Mejoras
+## Posibles Mejoras
 
 ### 1. **Reconocimiento Facial Real**
 - **ML Kit Face Detection**: Google ML Kit para detección facial
@@ -485,7 +485,7 @@ override fun onRequestPermissionsResult(
 
 ---
 
-## 📚 Referencias y Documentación
+## Referencias y Documentación
 
 ### APIs Utilizadas
 - [AndroidX Biometric](https://developer.android.com/jetpack/androidx/releases/biometric)
