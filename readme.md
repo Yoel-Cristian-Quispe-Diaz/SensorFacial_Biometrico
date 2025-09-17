@@ -31,7 +31,7 @@ Esta aplicación Android nativa implementa **autenticación biométrica dual** u
 
 ```
 src/main/
-├── java/com/example/biometricauth/
+├── java/com/example/sensorfacial_biometrico/
 │   ├── MainActivity.kt          # Pantalla principal con opciones de autenticación
 │   ├── FaceAuthActivity.kt      # Reconocimiento facial con cámara
 │   └── WelcomeActivity.kt       # Pantalla post-autenticación
